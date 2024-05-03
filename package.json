@@ -1,0 +1,34 @@
+{
+  "name": "aleo-swiss-knife",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "deploy": "tsc && dotenv node build/deploy-programs.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Marius Sili",
+  "dependencies": {
+    "@kryha-labs/aleo-sdk-canary": "0.0.3",
+    "@kryha-labs/aleo-wasm-canary": "0.0.1",
+    "dotenv-cli": "7.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.5.0",
+    "@typescript-eslint/eslint-plugin": "6.11.0",
+    "@typescript-eslint/parser": "6.11.0",
+    "eslint": "8.53.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-import": "2.29.0",
+    "eslint-plugin-n": "15.0.0 || 16.0.0 ",
+    "eslint-plugin-prettier": "5.0.1",
+    "eslint-plugin-promise": "6.0.0",
+    "prettier": "3.1.0",
+    "prettier-plugin-organize-imports": "3.2.4",
+    "prettier-plugin-sort-json": "3.1.0",
+    "typescript": "5.2.2"
+  },
+  "license": "MIT"
+}
